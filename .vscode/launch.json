@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "app.Main",
+            "projectName": "cyber_project_c091340d"
+        },
+        {
+            "type": "java",
+            "name": "TCPClient",
+            "request": "launch",
+            "mainClass": "app.client.TCPClient",
+            "projectName": "cyber_project_c091340d"
+        },
+        {
+            "type": "java",
+            "name": "ServerGUI",
+            "request": "launch",
+            "mainClass": "app.server.ServerGUI",
+            "projectName": "cyber_project_c091340d",
+            "vmArgs": "--module-path \"C:/Users/Mi Pc/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+            "args": []
+        }
+    ]
+}
